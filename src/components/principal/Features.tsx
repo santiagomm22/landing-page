@@ -4,18 +4,18 @@ import { MapPin, Headphones, Users } from "lucide-react";
 const features = [
   {
     icon: <MapPin size={40} />,
-    title: "Trail And Trusted",
-    description: "With 10+ years of experience in adventure tourism",
+    title: "Experiencia y Confianza",
+    description: "Con más de 10 años de experiencia en turismo de aventura",
   },
   {
     icon: <Headphones size={40} />,
-    title: "24/7 Support",
-    description: "We're here to help you plan your perfect adventure",
+    title: "Soporte 24/7",
+    description: "Estamos aquí para ayudarte a planificar tu aventura perfecta",
   },
   {
     icon: <Users size={40} />,
-    title: "One-stop Travel Partner",
-    description: "Your trusted companion for all travel needs",
+    title: "Tu Compañero de Viaje",
+    description: "Tu aliado de confianza para todas tus necesidades de viaje",
   },
 ];
 
@@ -23,7 +23,7 @@ function Features() {
   return (
     <Container sx={{ py: 8 }}>
       <Typography variant="h2" align="center" gutterBottom>
-        Reason For Choosing Us
+        Razones para Elegirnos
       </Typography>
 
       <Grid container spacing={4} sx={{ mt: 4 }}>

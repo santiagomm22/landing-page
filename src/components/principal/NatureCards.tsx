@@ -10,23 +10,23 @@ import {
 const cards = [
   {
     image: "https://images.unsplash.com/photo-1464278533981-50106e6176b1",
-    title: "Alpine Peaks",
-    description: "Discover majestic mountain landscapes",
+    title: "Picos Alpinos",
+    description: "Descubre majestuosos paisajes montañosos",
   },
   {
     image: "https://images.unsplash.com/photo-1511497584788-876760111969",
-    title: "Mystic Forest",
-    description: "Explore serene woodland paths",
+    title: "Bosque Místico",
+    description: "Explora serenos senderos forestales",
   },
   {
     image: "https://images.unsplash.com/photo-1511497584788-876760111969",
-    title: "Wildlife Safari",
-    description: "Encounter amazing wildlife up close",
+    title: "Safari Salvaje",
+    description: "Encuentra increíbles animales de cerca",
   },
   {
     image: "https://images.unsplash.com/photo-1464278533981-50106e6176b1",
-    title: "Mountain Vista",
-    description: "Experience breathtaking views",
+    title: "Vista Montañosa",
+    description: "Experimenta vistas impresionantes",
   },
 ];
 
@@ -34,7 +34,7 @@ function NatureCards() {
   return (
     <Container sx={{ py: 8 }}>
       <Typography variant="h2" align="center" gutterBottom>
-        The Wonders Of Nature
+        Las Maravillas de la Naturaleza
       </Typography>
       <Typography
         variant="subtitle1"
@@ -42,7 +42,7 @@ function NatureCards() {
         color="text.secondary"
         paragraph
       >
-        We take you to places for beautiful views of the world
+        Te llevamos a lugares con las vistas más hermosas del mundo
       </Typography>
 
       <Grid container spacing={4} sx={{ mt: 4 }}>

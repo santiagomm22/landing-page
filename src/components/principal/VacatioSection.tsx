@@ -50,16 +50,17 @@ function VacationSection() {
 
         <Grid item xs={12} md={6}>
           <Typography variant="h2">
-            Here's makes a vacation perfect for you!
+            ¡Descubre lo que hace perfectas tus vacaciones!
           </Typography>
           <Typography variant="body1" paragraph sx={{ mb: 4 }}>
-            Whether you're planning a family vacation with your pet, a relaxing
-            weekend getaway, or an adventurous excursion, vacation rentals are
-            ideal for trips of all types. You can find everything from charming
-            mountain cabins and lakeside lodges to breathtaking.
+            Ya sea que estés planeando unas vacaciones familiares con tu
+            mascota, un relajante fin de semana o una excursión aventurera,
+            nuestras propiedades son ideales para todo tipo de viajes.
+            Encontrarás desde encantadoras cabañas en la montaña hasta
+            alojamientos junto al lago con vistas impresionantes.
           </Typography>
           <Button variant="contained" color="primary" size="large">
-            Book Now
+            Reservar Ahora
           </Button>
         </Grid>
       </Grid>
